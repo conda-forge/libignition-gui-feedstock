@@ -22,5 +22,5 @@ cmake --build . --config Release --target install
 if errorlevel 1 exit 1
 
 :: Test.
-ctest -C Release
+ctest -C Release --verbose
 if errorlevel 1 exit 1
