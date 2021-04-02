@@ -35,12 +35,13 @@ requirements:
     - libprotobuf
     - tinyxml2
     - libignition-math6
-    - libignition-common3
+    - libignition-common4
     - libignition-plugin1
-    - libignition-transport9
-    - libignition-rendering4
-    - libignition-msgs6
+    - libignition-transport10
+    - libignition-rendering5
+    - libignition-msgs7
     - libignition-tools1
+    - libignition-utils1
     - qt
     - xorg-libxfixes  # [linux]
     - ogre  {{ ogre }}
