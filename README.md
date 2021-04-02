@@ -81,7 +81,7 @@ Current release info
 
 | Name | Downloads | Version | Platforms |
 | --- | --- | --- | --- |
-| [![Conda Recipe](https://img.shields.io/badge/recipe-libignition--gui4-green.svg)](https://anaconda.org/conda-forge/libignition-gui4) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/libignition-gui4.svg)](https://anaconda.org/conda-forge/libignition-gui4) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/libignition-gui4.svg)](https://anaconda.org/conda-forge/libignition-gui4) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/libignition-gui4.svg)](https://anaconda.org/conda-forge/libignition-gui4) |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-libignition--gui5-green.svg)](https://anaconda.org/conda-forge/libignition-gui5) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/libignition-gui5.svg)](https://anaconda.org/conda-forge/libignition-gui5) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/libignition-gui5.svg)](https://anaconda.org/conda-forge/libignition-gui5) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/libignition-gui5.svg)](https://anaconda.org/conda-forge/libignition-gui5) |
 
 Installing libignition-gui
 ==========================
@@ -92,16 +92,16 @@ Installing `libignition-gui` from the `conda-forge` channel can be achieved by a
 conda config --add channels conda-forge
 ```
 
-Once the `conda-forge` channel has been enabled, `libignition-gui4` can be installed with:
+Once the `conda-forge` channel has been enabled, `libignition-gui5` can be installed with:
 
 ```
-conda install libignition-gui4
+conda install libignition-gui5
 ```
 
-It is possible to list all of the versions of `libignition-gui4` available on your platform with:
+It is possible to list all of the versions of `libignition-gui5` available on your platform with:
 
 ```
-conda search libignition-gui4 --channel conda-forge
+conda search libignition-gui5 --channel conda-forge
 ```
 
 

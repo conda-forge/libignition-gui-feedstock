@@ -1,6 +1,6 @@
 {% set component_name = "gui" %}
 {% set base_name = "libignition-" + component_name %}
-{% set version = "4.3.0" %}
+{% set version = "5.0.0" %}
 {% set major_version = version.split('.')[0] %}
 {% set name = base_name + major_version %}
 
@@ -10,10 +10,10 @@ package:
 
 source:
   - url: https://github.com/ignitionrobotics/ign-{{ component_name }}/archive/ignition-{{ component_name }}{{ major_version }}_{{ version }}.tar.gz
-    sha256: bcb86e8f539e80a97347b5de0d718e428bf000660f92dd43b3b19640e14fc4a5
+    sha256: aa78224fbb86efa5b05a8e12daac9eeea9fd4f568ae3c4cee4e9d571e670e2ca
 
 build:
-  number: 1
+  number: 0
   run_exports:
     - {{ pin_subpackage(name, max_pin='x') }}
 
@@ -35,12 +35,13 @@ requirements:
     - libprotobuf
     - tinyxml2
     - libignition-math6
-    - libignition-common3
+    - libignition-common4
     - libignition-plugin1
-    - libignition-transport9
-    - libignition-rendering4
-    - libignition-msgs6
+    - libignition-transport10
+    - libignition-rendering5
+    - libignition-msgs7
     - libignition-tools1
+    - libignition-utils1
     - qt
     - xorg-libxfixes  # [linux]
     - ogre  {{ ogre }}
