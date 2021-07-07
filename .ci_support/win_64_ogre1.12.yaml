@@ -17,3 +17,5 @@ qt:
 - '5.12'
 target_platform:
 - win-64
+tinyxml2:
+- '8'
