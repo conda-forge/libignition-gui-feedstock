@@ -38,9 +38,9 @@ requirements:
     - libignition-math6
     - libignition-common4
     - libignition-plugin1
-    - libignition-transport10
-    - libignition-rendering5
-    - libignition-msgs7
+    - libignition-transport11
+    - libignition-rendering6
+    - libignition-msgs8
     - libignition-tools1
     - libignition-utils1
     - qt
