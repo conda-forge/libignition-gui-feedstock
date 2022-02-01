@@ -1,6 +1,6 @@
 {% set component_name = "gui" %}
 {% set base_name = "libignition-" + component_name %}
-{% set version = "6_6.3.0" %}
+{% set version = "6_6.4.0" %}
 {% set version_package = version.split('_')[1] %}
 {% set major_version = version_package.split('.')[0] %}
 {% set name = base_name + major_version %}
@@ -11,7 +11,7 @@ package:
 
 source:
   - url: https://github.com/ignitionrobotics/ign-{{ component_name }}/archive/ignition-{{ component_name }}{{ version }}.tar.gz
-    sha256: f13d4af907c72b100dcfef75ec8155cc94db891626455c3ad2579d416953235c
+    sha256: bffc79ca40568e75ef79a44b7c5c3301a588149a3ee34c03cfcd8478ef176800
 
 build:
   number: 0
