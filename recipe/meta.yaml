@@ -11,10 +11,10 @@ package:
 
 source:
   - url: https://github.com/ignitionrobotics/ign-{{ component_name }}/archive/ignition-{{ component_name }}{{ version }}.tar.gz
-    sha256: 2753ed861ffca3c3a522ec2baefa025da85f65f48ea7684e18ad26c417d51fb7
+    sha256: d4ea368451fd39cda80c433047d82ff1d9efcb732ea9e7f465b708b125c22f43
 
 build:
-  number: 4
+  number: 5
   run_exports:
     - {{ pin_subpackage(name, max_pin='x') }}
 
@@ -43,7 +43,7 @@ requirements:
     - libignition-msgs7
     - libignition-tools1
     - libignition-utils1
-    - qt
+    - qt-main
     - xorg-libxfixes  # [linux]
     - ogre  {{ ogre }}
   run:
