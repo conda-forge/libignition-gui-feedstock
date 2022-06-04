@@ -14,7 +14,7 @@ source:
     sha256: 2753ed861ffca3c3a522ec2baefa025da85f65f48ea7684e18ad26c417d51fb7
 
 build:
-  number: 4
+  number: 5
   run_exports:
     - {{ pin_subpackage(name, max_pin='x') }}
 
@@ -43,7 +43,7 @@ requirements:
     - libignition-msgs7
     - libignition-tools1
     - libignition-utils1
-    - qt
+    - qt-main
     - xorg-libxfixes  # [linux]
     - ogre  {{ ogre }}
   run:
