@@ -10,7 +10,7 @@ package:
   version: {{ version_package }}
 
 source:
-  - url: https://github.com/ignitionrobotics/ign-{{ component_name }}/archive/ignition-{{ component_name }}{{ version }}.tar.gz
+  - url: https://github.com/gazebosim/gz-{{ component_name }}/archive/ignition-{{ component_name }}{{ version }}.tar.gz
     sha256: 12fb06e8333f3bd56aef951aa162dbc3076892eee79f0554c5d1b7fa528f42c8
 
 build:
@@ -61,7 +61,7 @@ test:
     - if not exist %PREFIX%\\Library\\lib\\cmake\\ignition-{{ component_name }}{{ major_version }}\\ignition-{{ component_name }}{{ major_version }}-config.cmake exit 1  # [win]
 
 about:
-  home: https://github.com/ignitionrobotics/ign-{{ component_name }}
+  home: https://github.com/gazebosim/gz-{{ component_name }}
   license: Apache-2.0
   license_file: LICENSE
   summary: Ignition Robotics library that builds on top of Qt to provide widgets which are useful when developing robotics applications, such as a 3D view, plots, dashboard.
