@@ -10,11 +10,8 @@ libprotobuf:
 - '3.20'
 ogre:
 - '1.12'
-pin_run_as_build:
-  qt:
-    max_pin: x.x
-qt:
-- '5.12'
+qt_main:
+- '5.15'
 target_platform:
 - win-64
 tinyxml2:
