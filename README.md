@@ -1,7 +1,7 @@
 About libignition-gui
 =====================
 
-Home: https://github.com/ignitionrobotics/ign-gui
+Home: https://github.com/gazebosim/gz-gui
 
 Package license: Apache-2.0
 
@@ -52,6 +52,20 @@ Current build status
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=12248&branchName=main">
                   <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/libignition-gui-feedstock?branchName=main&jobName=osx&configuration=osx_64_ogre1.12" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_arm64_ogre1.10</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=12248&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/libignition-gui-feedstock?branchName=main&jobName=osx&configuration=osx_arm64_ogre1.10" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_arm64_ogre1.12</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=12248&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/libignition-gui-feedstock?branchName=main&jobName=osx&configuration=osx_arm64_ogre1.12" alt="variant">
                 </a>
               </td>
             </tr><tr>
