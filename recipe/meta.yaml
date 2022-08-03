@@ -1,6 +1,6 @@
 {% set component_name = "gui" %}
 {% set base_name = "libignition-" + component_name %}
-{% set version = "6_6.4.0" %}
+{% set version = "6_6.5.0" %}
 {% set version_package = version.split('_')[1] %}
 {% set major_version = version_package.split('.')[0] %}
 {% set name = base_name + major_version %}
@@ -11,10 +11,10 @@ package:
 
 source:
   - url: https://github.com/gazebosim/gz-{{ component_name }}/archive/ignition-{{ component_name }}{{ version }}.tar.gz
-    sha256: 12fb06e8333f3bd56aef951aa162dbc3076892eee79f0554c5d1b7fa528f42c8
+    sha256: 2e3295824cbf80f9214d47f8255a964718460e92f7b20e4b68a9e21ab6a3188c
 
 build:
-  number: 3
+  number: 0
   run_exports:
     - {{ pin_subpackage(name, max_pin='x') }}
 
