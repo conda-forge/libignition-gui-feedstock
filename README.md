@@ -1,11 +1,11 @@
-About libignition-gui
-=====================
+About libignition-gui-feedstock
+===============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/libignition-gui-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/gazebosim/gz-gui
 
 Package license: Apache-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/libignition-gui-feedstock/blob/main/LICENSE.txt)
 
 Summary: Ignition Robotics library that builds on top of Qt to provide widgets which are useful when developing robotics applications, such as a 3D view, plots, dashboard.
 
@@ -27,73 +27,143 @@ Current build status
         <table>
           <thead><tr><th>Variant</th><th>Status</th></tr></thead>
           <tbody><tr>
-              <td>linux_64_ogre1.10</td>
+              <td>linux_64_libprotobuf3.21ogre1.10</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=12248&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/libignition-gui-feedstock?branchName=main&jobName=linux&configuration=linux_64_ogre1.10" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/libignition-gui-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_libprotobuf3.21ogre1.10" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_ogre1.12</td>
+              <td>linux_64_libprotobuf3.21ogre1.12</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=12248&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/libignition-gui-feedstock?branchName=main&jobName=linux&configuration=linux_64_ogre1.12" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/libignition-gui-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_libprotobuf3.21ogre1.12" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_aarch64_ogre1.10</td>
+              <td>linux_64_libprotobuf4.23.2ogre1.10</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=12248&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/libignition-gui-feedstock?branchName=main&jobName=linux&configuration=linux_aarch64_ogre1.10" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/libignition-gui-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_libprotobuf4.23.2ogre1.10" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_aarch64_ogre1.12</td>
+              <td>linux_64_libprotobuf4.23.2ogre1.12</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=12248&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/libignition-gui-feedstock?branchName=main&jobName=linux&configuration=linux_aarch64_ogre1.12" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/libignition-gui-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_libprotobuf4.23.2ogre1.12" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_64_ogre1.10</td>
+              <td>linux_aarch64_libprotobuf3.21ogre1.10</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=12248&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/libignition-gui-feedstock?branchName=main&jobName=osx&configuration=osx_64_ogre1.10" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/libignition-gui-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_libprotobuf3.21ogre1.10" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_64_ogre1.12</td>
+              <td>linux_aarch64_libprotobuf3.21ogre1.12</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=12248&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/libignition-gui-feedstock?branchName=main&jobName=osx&configuration=osx_64_ogre1.12" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/libignition-gui-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_libprotobuf3.21ogre1.12" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_arm64_ogre1.10</td>
+              <td>linux_aarch64_libprotobuf4.23.2ogre1.10</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=12248&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/libignition-gui-feedstock?branchName=main&jobName=osx&configuration=osx_arm64_ogre1.10" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/libignition-gui-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_libprotobuf4.23.2ogre1.10" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_arm64_ogre1.12</td>
+              <td>linux_aarch64_libprotobuf4.23.2ogre1.12</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=12248&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/libignition-gui-feedstock?branchName=main&jobName=osx&configuration=osx_arm64_ogre1.12" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/libignition-gui-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_libprotobuf4.23.2ogre1.12" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>win_64_ogre1.10</td>
+              <td>osx_64_libprotobuf3.21ogre1.10</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=12248&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/libignition-gui-feedstock?branchName=main&jobName=win&configuration=win_64_ogre1.10" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/libignition-gui-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_libprotobuf3.21ogre1.10" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>win_64_ogre1.12</td>
+              <td>osx_64_libprotobuf3.21ogre1.12</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=12248&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/libignition-gui-feedstock?branchName=main&jobName=win&configuration=win_64_ogre1.12" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/libignition-gui-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_libprotobuf3.21ogre1.12" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_64_libprotobuf4.23.2ogre1.10</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=12248&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/libignition-gui-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_libprotobuf4.23.2ogre1.10" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_64_libprotobuf4.23.2ogre1.12</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=12248&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/libignition-gui-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_libprotobuf4.23.2ogre1.12" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_arm64_libprotobuf3.21ogre1.10</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=12248&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/libignition-gui-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_libprotobuf3.21ogre1.10" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_arm64_libprotobuf3.21ogre1.12</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=12248&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/libignition-gui-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_libprotobuf3.21ogre1.12" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_arm64_libprotobuf4.23.2ogre1.10</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=12248&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/libignition-gui-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_libprotobuf4.23.2ogre1.10" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_arm64_libprotobuf4.23.2ogre1.12</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=12248&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/libignition-gui-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_libprotobuf4.23.2ogre1.12" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>win_64_libprotobuf3.21ogre1.10</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=12248&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/libignition-gui-feedstock?branchName=main&jobName=win&configuration=win%20win_64_libprotobuf3.21ogre1.10" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>win_64_libprotobuf3.21ogre1.12</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=12248&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/libignition-gui-feedstock?branchName=main&jobName=win&configuration=win%20win_64_libprotobuf3.21ogre1.12" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>win_64_libprotobuf4.23.2ogre1.10</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=12248&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/libignition-gui-feedstock?branchName=main&jobName=win&configuration=win%20win_64_libprotobuf4.23.2ogre1.10" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>win_64_libprotobuf4.23.2ogre1.12</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=12248&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/libignition-gui-feedstock?branchName=main&jobName=win&configuration=win%20win_64_libprotobuf4.23.2ogre1.12" alt="variant">
                 </a>
               </td>
             </tr>
