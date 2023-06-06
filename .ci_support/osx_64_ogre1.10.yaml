@@ -3,7 +3,7 @@ MACOSX_DEPLOYMENT_TARGET:
 c_compiler:
 - clang
 c_compiler_version:
-- '11'
+- '14'
 channel_sources:
 - conda-forge
 channel_targets:
@@ -11,20 +11,17 @@ channel_targets:
 cxx_compiler:
 - clangxx
 cxx_compiler_version:
-- '11'
+- '14'
 libprotobuf:
-- '3.19'
+- '3.21'
 macos_machine:
 - x86_64-apple-darwin13.4.0
 macos_min_version:
 - '10.13'
 ogre:
 - '1.10'
-pin_run_as_build:
-  qt:
-    max_pin: x.x
-qt:
-- '5.12'
+qt_main:
+- '5.15'
 target_platform:
 - osx-64
 tinyxml2:

@@ -5,7 +5,7 @@
 jobs:
 - job: osx
   pool:
-    vmImage: macOS-10.15
+    vmImage: macOS-11
   strategy:
     matrix:
       osx_64_ogre1.10:
@@ -13,6 +13,12 @@ jobs:
         UPLOAD_PACKAGES: 'True'
       osx_64_ogre1.12:
         CONFIG: osx_64_ogre1.12
+        UPLOAD_PACKAGES: 'True'
+      osx_arm64_ogre1.10:
+        CONFIG: osx_arm64_ogre1.10
+        UPLOAD_PACKAGES: 'True'
+      osx_arm64_ogre1.12:
+        CONFIG: osx_arm64_ogre1.12
         UPLOAD_PACKAGES: 'True'
   timeoutInMinutes: 360
 

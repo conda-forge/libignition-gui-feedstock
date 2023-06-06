@@ -1,9 +1,13 @@
+BUILD:
+- aarch64-conda_cos7-linux-gnu
 c_compiler:
 - gcc
 c_compiler_version:
 - '10'
+cdt_arch:
+- aarch64
 cdt_name:
-- cos6
+- cos7
 channel_sources:
 - conda-forge
 channel_targets:
@@ -21,7 +25,7 @@ ogre:
 qt_main:
 - '5.15'
 target_platform:
-- linux-64
+- linux-aarch64
 tinyxml2:
 - '9'
 zip_keys:

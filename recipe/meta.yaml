@@ -1,6 +1,6 @@
 {% set component_name = "gui" %}
 {% set base_name = "libignition-" + component_name %}
-{% set version = "6_6.4.0" %}
+{% set version = "6_6.6.1" %}
 {% set version_package = version.split('_')[1] %}
 {% set major_version = version_package.split('.')[0] %}
 {% set name = base_name + major_version %}
@@ -10,8 +10,8 @@ package:
   version: {{ version_package }}
 
 source:
-  - url: https://github.com/ignitionrobotics/ign-{{ component_name }}/archive/ignition-{{ component_name }}{{ version }}.tar.gz
-    sha256: bffc79ca40568e75ef79a44b7c5c3301a588149a3ee34c03cfcd8478ef176800
+  - url: https://github.com/gazebosim/gz-{{ component_name }}/archive/ignition-{{ component_name }}{{ version }}.tar.gz
+    sha256: ab484fb6d433e2e08516956b8b188751a4541ffa416717748fb43a3945337971
 
 build:
   number: 1
@@ -43,7 +43,7 @@ requirements:
     - libignition-msgs8
     - libignition-tools1
     - libignition-utils1
-    - qt
+    - qt-main
     - xorg-libxfixes  # [linux]
     - ogre  {{ ogre }}
   run:
@@ -61,7 +61,7 @@ test:
     - if not exist %PREFIX%\\Library\\lib\\cmake\\ignition-{{ component_name }}{{ major_version }}\\ignition-{{ component_name }}{{ major_version }}-config.cmake exit 1  # [win]
 
 about:
-  home: https://github.com/ignitionrobotics/ign-{{ component_name }}
+  home: https://github.com/gazebosim/gz-{{ component_name }}
   license: Apache-2.0
   license_file: LICENSE
   summary: Ignition Robotics library that builds on top of Qt to provide widgets which are useful when developing robotics applications, such as a 3D view, plots, dashboard.
