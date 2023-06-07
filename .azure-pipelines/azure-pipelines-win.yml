@@ -8,17 +8,11 @@ jobs:
     vmImage: windows-2022
   strategy:
     matrix:
-      win_64_libprotobuf3.21ogre1.10:
-        CONFIG: win_64_libprotobuf3.21ogre1.10
+      win_64_libprotobuf3.21:
+        CONFIG: win_64_libprotobuf3.21
         UPLOAD_PACKAGES: 'True'
-      win_64_libprotobuf3.21ogre1.12:
-        CONFIG: win_64_libprotobuf3.21ogre1.12
-        UPLOAD_PACKAGES: 'True'
-      win_64_libprotobuf4.23.2ogre1.10:
-        CONFIG: win_64_libprotobuf4.23.2ogre1.10
-        UPLOAD_PACKAGES: 'True'
-      win_64_libprotobuf4.23.2ogre1.12:
-        CONFIG: win_64_libprotobuf4.23.2ogre1.12
+      win_64_libprotobuf4.23.2:
+        CONFIG: win_64_libprotobuf4.23.2
         UPLOAD_PACKAGES: 'True'
   timeoutInMinutes: 360
   variables:

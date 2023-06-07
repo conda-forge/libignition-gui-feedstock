@@ -7,9 +7,7 @@ channel_targets:
 cxx_compiler:
 - vs2019
 libprotobuf:
-- 4.23.2
-ogre:
-- '1.12'
+- '3.21'
 qt_main:
 - '5.15'
 target_platform:
