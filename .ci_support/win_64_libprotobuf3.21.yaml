@@ -8,8 +8,6 @@ cxx_compiler:
 - vs2019
 libprotobuf:
 - '3.21'
-ogre:
-- '1.12'
 qt_main:
 - '5.15'
 target_platform:

@@ -12,9 +12,11 @@ package:
 source:
   - url: https://github.com/gazebosim/gz-{{ component_name }}/archive/ignition-{{ component_name }}{{ version }}.tar.gz
     sha256: ab484fb6d433e2e08516956b8b188751a4541ffa416717748fb43a3945337971
+    patches:
+      - 544.patch
 
 build:
-  number: 1
+  number: 2
   run_exports:
     - {{ pin_subpackage(name, max_pin='x') }}
 
@@ -45,7 +47,7 @@ requirements:
     - libignition-utils1
     - qt-main
     - xorg-libxfixes  # [linux]
-    - ogre  {{ ogre }}
+    - ogre 1.10.*
   run:
     - __osx >={{ MACOSX_DEPLOYMENT_TARGET|default("10.9") }}  # [osx and x86_64]
 
