@@ -12,6 +12,8 @@ package:
 source:
   - url: https://github.com/gazebosim/gz-{{ component_name }}/archive/ignition-{{ component_name }}{{ version }}.tar.gz
     sha256: ab484fb6d433e2e08516956b8b188751a4541ffa416717748fb43a3945337971
+    patches:
+      - 544.patch
 
 build:
   number: 2
