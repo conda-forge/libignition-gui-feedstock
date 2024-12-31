@@ -16,7 +16,7 @@ source:
       - 544.patch
 
 build:
-  number: 12
+  number: 13
   run_exports:
     - {{ pin_subpackage(name, max_pin='x') }}
 
