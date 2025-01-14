@@ -1,6 +1,6 @@
 {% set component_name = "gui" %}
 {% set base_name = "libignition-" + component_name %}
-{% set version = "6_6.6.1" %}
+{% set version = "6_6.8.0" %}
 {% set version_package = version.split('_')[1] %}
 {% set major_version = version_package.split('.')[0] %}
 {% set name = base_name + major_version %}
@@ -11,12 +11,10 @@ package:
 
 source:
   - url: https://github.com/gazebosim/gz-{{ component_name }}/archive/ignition-{{ component_name }}{{ version }}.tar.gz
-    sha256: ab484fb6d433e2e08516956b8b188751a4541ffa416717748fb43a3945337971
-    patches:
-      - 544.patch
+    sha256: bd5428b1ee8b7eb0e69ab6d5abe02a57afc9ecc56e76dd9a7f251bb7d2baa04a
 
 build:
-  number: 13
+  number: 0
   run_exports:
     - {{ pin_subpackage(name, max_pin='x') }}
 
@@ -28,12 +26,6 @@ requirements:
     - make  # [not win]
     - cmake
     - pkg-config
-    - {{ cdt('mesa-libgl-devel') }}  # [linux]
-    - {{ cdt('mesa-dri-drivers') }}  # [linux]
-    - {{ cdt('libselinux') }}  # [linux]
-    - {{ cdt('libxdamage') }}  # [linux]
-    - {{ cdt('libxxf86vm') }}  # [linux]
-    - {{ cdt('libxext') }}     # [linux]
   host:
     - libignition-cmake2
     - libprotobuf
@@ -42,12 +34,13 @@ requirements:
     - libignition-common4
     - libignition-plugin1
     - libignition-transport11
-    - libignition-rendering6
+    - libignition-rendering6 >=6.6
     - libignition-msgs8
     - libignition-tools1
     - libignition-utils1
     - qt-main
     - xorg-libxfixes  # [linux]
+    - libgl-devel  # [linux]
     - ogre 1.10.*
   run:
 
