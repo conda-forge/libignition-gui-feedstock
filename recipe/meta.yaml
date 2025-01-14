@@ -34,7 +34,7 @@ requirements:
     - libignition-common4
     - libignition-plugin1
     - libignition-transport11
-    - libignition-rendering6
+    - libignition-rendering6 >=6.6
     - libignition-msgs8
     - libignition-tools1
     - libignition-utils1
