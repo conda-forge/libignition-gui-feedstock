@@ -11,6 +11,8 @@ cmake ${CMAKE_ARGS} \
       -DCMAKE_INSTALL_SYSTEM_RUNTIME_LIBS_SKIP=True \
       -DBUILD_SHARED_LIBS=ON \
       -DBUILD_TESTING=OFF \
+      # Try to avoid weird mix of FindProtobuf and protobuf-config targets
+      -DCMAKE_FIND_PACKAGE_PREFER_CONFIG:BOOL=ON \
       ..
 
 cmake --build . --config Release
