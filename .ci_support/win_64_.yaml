@@ -9,10 +9,10 @@ channel_targets:
 cxx_compiler:
 - vs2019
 libprotobuf:
-- 5.28.3
+- 5.29.3
 qt_main:
 - '5.15'
 target_platform:
 - win-64
 tinyxml2:
-- '10'
+- '10.0'

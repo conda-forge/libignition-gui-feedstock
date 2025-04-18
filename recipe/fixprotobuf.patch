@@ -1,0 +1,26 @@
+diff --git a/CMakeLists.txt b/CMakeLists.txt
+index ee7baf395..811fddcd5 100644
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -30,9 +30,7 @@ message(STATUS "\n\n-- ====== Finding Dependencies ======")
+ 
+ #--------------------------------------
+ # Find Protobuf
+-set(REQ_PROTOBUF_VER 3)
+ ign_find_package(IgnProtobuf
+-                 VERSION ${REQ_PROTOBUF_VER}
+                  REQUIRED
+                  PRETTY Protobuf)
+ 
+@@ -37,6 +37,11 @@ ign_find_package(IgnProtobuf
+ #--------------------------------------
+ # Find Tinyxml2
+ ign_find_package(TINYXML2 REQUIRED PRIVATE PRETTY tinyxml2)
++find_package(tinyxml2 CONFIG REQUIRED)
++if(TARGET tinyxml2::tinyxml2 AND NOT TARGET TINYXML2::TINYXML2)
++  add_library(TINYXML2::TINYXML2 INTERFACE IMPORTED)
++  set_property(TARGET TINYXML2::TINYXML2 PROPERTY INTERFACE_LINK_LIBRARIES tinyxml2::tinyxml2)
++endif()
+ 
+ #--------------------------------------
+ # Find ignition-math
