@@ -12,6 +12,8 @@ package:
 source:
   - url: https://github.com/gazebosim/gz-{{ component_name }}/archive/ignition-{{ component_name }}{{ version }}.tar.gz
     sha256: bd5428b1ee8b7eb0e69ab6d5abe02a57afc9ecc56e76dd9a7f251bb7d2baa04a
+    patch:
+      - fixprotobuf.patch
 
 build:
   number: 1
