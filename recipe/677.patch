@@ -17,7 +17,7 @@ index 3fffc9e8d..05b145575 100644
  
      if (messageType)
 -      this->AddField(msgItem, msgField->name(), messageType->name());
-+      this->AddField(msgItem, std::string(msgField->name()), std::string((messageType->name()));
++      this->AddField(msgItem, std::string(msgField->name()), std::string(messageType->name()));
  
      else
      {
