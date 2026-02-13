@@ -9,7 +9,7 @@ channel_targets:
 cxx_compiler:
 - vs2022
 libprotobuf:
-- 6.31.1
+- 6.33.5
 qt_main:
 - '5.15'
 target_platform:
